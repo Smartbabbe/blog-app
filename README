@@ -1,4 +1,72 @@
-##A responsive blog platform with categories in Technology, Design, Business, Culture, Science, and Health; search functionality; dark and light theme; an editorial layout and dynamic sections for topics, trending and most read articles.
+# Bloggy — Blog & News Feed Platform
 
+> A responsive blog platform with category filtering, 
+> search, dark/light theme, and a dynamic editorial layout.
 
-##Live URL - https://blog-app-flax-gamma.vercel.app/
+🔗 **Live demo:** [https://blog-app-flax-gamma.vercel.app/]
+
+---
+
+## Overview
+
+Bloggy is a full-featured blog and news feed UI built to 
+simulate a real editorial platform across six content 
+categories — Technology, Design, Business, Culture, 
+Science, and Health.
+
+---
+
+## Features
+
+- **Category filtering** — filter by Technology, Design, 
+  Business, Culture, Science, Health
+- **Search** — live search across article titles 
+  and content
+- **Dark and light theme** — toggle with 
+  persistent preference
+- **Editorial layout** — featured hero, trending section, 
+  most-read sidebar
+- **Dynamic sections** — articles update based on active 
+  filter and search query
+- **Fully responsive**
+
+---
+
+## Tech Stack
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38BDF8?style=flat&logo=tailwind-css&logoColor=white)
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/Smartbabbe/[blog-app]
+cd [blog-app]
+npm install
+npm run dev
+```
+
+---
+
+## Key Implementation Details
+
+- Article data typed as TypeScript objects with category, 
+  tags, read time, and author fields
+- Search filters against both title and body content 
+  using Array.filter
+- Theme toggle using useState with Tailwind dark: 
+  variant classes
+- Trending and most-read sections derived dynamically 
+  from the same data source
+
+---
+
+## Contact
+
+Built by **Esther Israel**
+🌐 [Portfolio](https://personal-portfolio-site-ten-rouge.vercel.app) 
+· 📩 estherisrael036@gmail.com 
+· 🐦 [@thesmarrtDev](https://twitter.com/thesmarrtDev)
