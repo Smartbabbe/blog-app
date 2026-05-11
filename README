@@ -43,8 +43,8 @@ Science, and Health.
 ## Getting Started
 
 ```bash
-git clone https://github.com/Smartbabbe/[blog-app]
-cd [blog-app]
+git clone https://github.com/Smartbabbe/blog-app
+cd blog-app
 npm install
 npm run dev
 ```
